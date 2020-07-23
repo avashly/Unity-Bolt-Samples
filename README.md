@@ -1,6 +1,6 @@
 # ⚡ Unity-BoltKit-Samples
 
-A collection of Unity packages featuring Bolt Visual Scripting samples. Each sample demonstrates how to work with Unity editor features, game logic, &amp; more without having to write a single line of code.
+A collection of Unity packages featuring Bolt Visual Scripting samples. Each sample demonstrates how to work with Unity editor features, game logic, &amp; more without having to write a single line of code. **All packages can be found in this repo's [Releases section](https://github.com/avashly/Unity-BoltKit-Samples/releases).**
 
 [Setup](#setup) | [Samples](#samples) | [Credits](#credits)
 ------------ | ------------- | -------------
@@ -29,7 +29,7 @@ The easiest way to get started:
 
 ### 🔮 Working with Shader Graph, Materials, & More
 
-**Download: [BoltKit_ThirdPerson_Samples.unitypackage](https://github.com/avashly/Unity-BoltKit-Samples/releases/download/v0.1-beta/BoltKit_ThirdPerson_Samples.unitypackage)**
+**Download: [BoltKit_ThirdPerson_Samples.unitypackage](https://github.com/avashly/Unity-BoltKit-Samples/releases/download/v0.1/BoltKit_ThirdPerson_Samples.unitypackage)**
 
 Includes samples for working with Shader Graph, materials, keyboard input, colliders / triggers, game object tags, & scene management. Additional documentation coming soon. The sample Bolt macros can be found within BoltKit_ThirdPerson_Samples > Macros.
 
