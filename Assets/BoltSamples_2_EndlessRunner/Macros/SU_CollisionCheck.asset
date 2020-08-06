@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: SU_CollisionCheck
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.Collider2D","key":"Collider","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":null,"_type":"System.String","key":"Tag","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"SU_Collision_Check","summary":"Checks
+      to see if the tag on the input game object collider matches the string input.","pan":{"x":-2.874954,"y":-18.37498},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"","$type":"System.String"}},"position":{"x":-136.0,"y":-60.0},"guid":"0a4009aa-0b3b-45b8-a65b-43cc4729bb1b","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"defaultValues":{},"position":{"x":42.0,"y":-58.0},"guid":"9f335718-f5e6-4b24-b114-39608a065e96","$version":"A","$type":"Bolt.Branch","$id":"16"},{"defaultValues":{},"position":{"x":-344.0,"y":-63.0},"guid":"986b53fe-e166-4e0e-a063-4568cd785763","$version":"A","$type":"Bolt.GraphInput","$id":"18"},{"defaultValues":{},"position":{"x":252.0,"y":-56.0},"guid":"9804f46f-9ac6-4a50-81bb-6e34c72d721b","$version":"A","$type":"Bolt.GraphOutput","$id":"20"},{"sourceUnit":{"$ref":"13"},"sourceKey":"exit","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"6cd1cf63-0c0c-4408-af63-c7ba195310e6","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"20"},"destinationKey":"Exit","guid":"6f597820-473b-46b2-a6e9-2ce58fe09008","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"Enter","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"c2382656-888d-4bf1-8318-d3505883ab46","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"result","destinationUnit":{"$ref":"16"},"destinationKey":"condition","guid":"af728499-0359-45e1-bc3b-fa3cafeb00a6","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"Collider","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"c336d097-a6ce-4a37-90e6-e11456e162c6","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"Tag","destinationUnit":{"$ref":"13"},"destinationKey":"%tag","guid":"7e1cc8f8-02b7-4c0e-bede-cabbafd5e571","$type":"Bolt.ValueConnection"},{"position":{"xMin":-178.5,"yMin":-125.25,"xMax":172.7501,"yMax":88.50003},"label":"Checks
+      to see if the tag on the input collider''s game object matches the string input.
+      If they do match, continue to the Super Unit output.","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"d4af956f-bd61-477e-a4c5-507b34516192","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

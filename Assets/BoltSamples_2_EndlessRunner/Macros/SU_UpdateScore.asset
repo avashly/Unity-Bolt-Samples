@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: SU_UpdateScore
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.Int32","key":"Score","label":null,"summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":166.5638,"y":93.74879},"zoom":0.573032,"elements":[{"type":"System.Int32","value":{"$content":1,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-162.0,"y":164.0},"guid":"a29e6e9e-e3e0-42f8-9dbd-d30a034d691a","$version":"A","$type":"Bolt.Literal","$id":"12"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"score","$type":"System.String"}},"position":{"x":-199.0,"y":67.0},"guid":"60f40a4d-0971-4308-a5f5-526032f72e4d","$version":"A","$type":"Bolt.GetVariable","$id":"14"},{"defaultValues":{},"position":{"x":-21.0,"y":72.0},"guid":"8cb6bb93-76e7-4959-86e4-47e8df395112","$version":"A","$type":"Bolt.GenericAdd","$id":"16"},{"kind":"Scene","defaultValues":{"name":{"$content":"score","$type":"System.String"}},"position":{"x":115.0,"y":-38.0},"guid":"ffdfd06e-8669-4337-84e1-c213bf4bb0ad","$version":"A","$type":"Bolt.SetVariable","$id":"18"},{"defaultValues":{},"position":{"x":-354.0,"y":-36.0},"guid":"113a1d59-e495-4e28-a4e5-699040844fbe","$version":"A","$type":"Bolt.GraphInput","$id":"20"},{"defaultValues":{},"position":{"x":327.0,"y":-33.0},"guid":"8b014cc3-5316-4b8e-8945-df7e82f3564b","$version":"A","$type":"Bolt.GraphOutput","$id":"22"},{"sourceUnit":{"$ref":"20"},"sourceKey":"Enter","destinationUnit":{"$ref":"18"},"destinationKey":"assign","guid":"6d1e625e-6884-4a89-a9e3-8069f1e1a068","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"assigned","destinationUnit":{"$ref":"22"},"destinationKey":"Exit","guid":"7544c478-9525-4cad-a244-7f335ae6459a","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"16"},"destinationKey":"b","guid":"5a3b975c-62a7-46c1-b07d-980f4a08e062","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"a","guid":"3e82f4ca-f850-4e50-be6d-4fb2729c7623","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"sum","destinationUnit":{"$ref":"18"},"destinationKey":"input","guid":"7d336b8c-4b34-4be7-b33d-469a985cc3f1","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"output","destinationUnit":{"$ref":"22"},"destinationKey":"Score","guid":"fed6098e-8927-4e31-85e7-a987e58b8b90","$type":"Bolt.ValueConnection"},{"position":{"xMin":-237.421,"yMin":-106.0526,"xMax":287.8422,"yMax":255.1579},"label":"Get
+      the current score and add 1 to it, then output the graph flow and updated score.","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"827d3967-a390-4dbb-b7dd-bf94aaa4de73","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
