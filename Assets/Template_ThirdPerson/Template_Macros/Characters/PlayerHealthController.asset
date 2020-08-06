@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: PlayerHealthController
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":12.29918,"y":-118.8964},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"GetActiveScene","parameterTypes":[],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{},"position":{"x":-263.0,"y":26.0},"guid":"09143914-4792-4ca8-a5a9-2f0c1cd39ec0","$version":"A","$type":"Bolt.InvokeMember","$id":"9"},{"member":{"name":"name","parameterTypes":null,"targetType":"UnityEngine.SceneManagement.Scene","targetTypeName":"UnityEngine.SceneManagement.Scene","$version":"A"},"defaultValues":{},"position":{"x":-51.0,"y":44.0},"guid":"c0b8a7de-d4f3-4d77-ac16-81a8d2f1d09e","$version":"A","$type":"Bolt.GetMember","$id":"12"},{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"","$type":"System.String"}},"position":{"x":142.0,"y":-86.0},"guid":"6939cf71-206c-497c-9661-2a6294662de7","$version":"A","$type":"Bolt.InvokeMember","$id":"15"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"Death","$type":"System.String"}},"position":{"x":-78.0,"y":-88.0},"guid":"d37f9282-70c1-45fb-9d4f-623a916e0512","$version":"A","$type":"Bolt.CustomEvent","$id":"18"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-235.0,"y":-273.0},"guid":"fdd9775d-032b-45c3-a0f9-937efae51921","$version":"A","$type":"Bolt.SuperUnit"},{"sourceUnit":{"$ref":"18"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"e8fb3128-8dfe-4e7f-96dd-e14e5b88a684","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"result","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"ba8775b7-2e5a-43c2-89c8-ac1c9a125882","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"%sceneName","guid":"bbba55a2-ddba-45f6-a17b-a696760480c3","$type":"Bolt.ValueConnection"},{"position":{"xMin":-308.0,"yMin":-152.0,"xMax":308.0,"yMax":153.0},"label":"Death","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"9cac2e0b-6c1e-4b1f-997d-966852c220f6","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: d8d8bf0aa6b7792469a36a93a8455090, type: 2}

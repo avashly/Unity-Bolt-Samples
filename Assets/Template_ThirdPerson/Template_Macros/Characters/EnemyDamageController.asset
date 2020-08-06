@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: EnemyDamageController
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-39.21931,"y":311.267},"zoom":1.0,"elements":[{"argumentCount":0,"defaultValues":{"name":{"$content":"Damage","$type":"System.String"},"target":null},"position":{"x":87.0,"y":295.0},"guid":"17049034-b765-4912-aa2a-02d219034fea","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"9"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-195.0,"y":311.0},"guid":"83f6b15a-1d58-47ac-91e1-a2ff3113bcba","$version":"A","$type":"Bolt.SuperUnit","$id":"11"},{"sourceUnit":{"$ref":"11"},"sourceKey":"target","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"e9b87cbc-6539-470e-821a-29e60e6fcc8f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Object","destinationUnit":{"$ref":"9"},"destinationKey":"target","guid":"926b66cd-7d8d-4ef2-b9a2-5fc47aa12ba6","$type":"Bolt.ValueConnection"},{"position":{"xMin":-251.0,"yMin":227.0,"xMax":264.0,"yMax":478.0},"label":"Damage
+      player on contact","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"7e3021fa-4618-4379-a607-1e5d0221a5e9","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 4113404ed0d42074fbe2e8f472af5ae7, type: 2}
