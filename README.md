@@ -2,10 +2,15 @@
 
 A collection of Unity packages featuring Bolt Visual Scripting samples. Each sample demonstrates how to work with Unity editor features, game logic, &amp; more without having to write a single line of code. **All samples can be found in this repo's [Releases section](https://github.com/avashly/Unity-BoltKit-Samples/releases).**
 
+
 [Setup](#setup) | [Samples](#samples) | [Credits](#credits)
 ------------ | ------------- | -------------
 
-**NOTE:** A Unity 2019.4 LTS or 2020.1 project with the [Universal Render Pipeline](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@8.2/manual/InstallingAndConfiguringURP.html) pre-installed is required to use these samples. 
+**NOTE:** 
+- A Unity 2019.4 LTS or 2020.1 project with the [Universal Render Pipeline](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@8.2/manual/InstallingAndConfiguringURP.html) pre-installed is required to use these samples. 
+- If you grab the project files directly instead of the .unitypackage, you may need to restart the editor after opening the project.
+
+<br>
 
 ![BoltSamples](https://user-images.githubusercontent.com/7104693/88254850-67026a80-cc6b-11ea-8d39-28171e2a961b.gif)
 
@@ -20,6 +25,8 @@ The easiest way to get started:
 2. Use the [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) to open a new Unity 2019.4 LTS or 2020.1 project using the Universal Render Pipeline template.
 
 3. In the menu bar, navigate to Assets > Import Package > Custom Package & select the package you downloaded earlier to import it into your project.
+
+4. Accept the prompts from the Bolt installer that appear and use the default settings. After this, you're all set!
 
 <br>
 
