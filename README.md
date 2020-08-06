@@ -48,7 +48,7 @@ A basic example of a 2D endless runner game that uses flow graphs & state graphs
 
 <br>
 
-### 🔜 Additional Samples Coming Soon
+### 🔜 Additional samples in the works!
 
 <br>
 
