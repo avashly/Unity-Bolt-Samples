@@ -1,4 +1,4 @@
-# ⚡ Unity-BoltKit-Samples
+# ⚡ Unity Bolt Samples
 
 A collection of Unity packages featuring Bolt Visual Scripting samples. Each sample demonstrates how to work with Unity editor features, game logic, &amp; more without having to write a single line of code. **All packages can be found in this repo's [Releases section](https://github.com/avashly/Unity-BoltKit-Samples/releases).**
 
