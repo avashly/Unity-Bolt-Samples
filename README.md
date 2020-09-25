@@ -48,6 +48,14 @@ A basic example of a 2D endless runner game that uses flow graphs & state graphs
 
 <br>
 
+### 🎨 Bolt Market Demo
+
+![BoltMarketDemo](https://user-images.githubusercontent.com/7104693/94290571-3b238f80-ff0f-11ea-82f8-28233f747d3b.gif)
+
+A more advanced demo featuring Bolt graphs for UI / dialouge, handling audio & animations, third person controls, scene management, working with Timeline, and more.
+
+<br>
+
 ### 🔜 Additional samples in the works!
 
 <br>
