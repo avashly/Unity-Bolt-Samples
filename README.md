@@ -7,7 +7,6 @@ A collection of Unity packages featuring Bolt Visual Scripting samples. Each sam
 ------------ | ------------- | -------------
 
 **NOTE:** 
-- A Unity 2019.4 LTS or 2020.1 project with the [Universal Render Pipeline](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@8.2/manual/InstallingAndConfiguringURP.html) pre-installed is required to use these samples. 
 - If you grab the project files directly instead of the .unitypackage, you may need to restart the editor after opening the project.
 
 <br>
@@ -36,7 +35,7 @@ The easiest way to get started:
 
 ![BoltSamples](https://user-images.githubusercontent.com/7104693/89501410-2715aa00-d778-11ea-98eb-ec78396781ec.gif)
 
-Includes samples for working with Shader Graph, materials, keyboard input, colliders / triggers, game object tags, & scene management. Additional documentation coming soon. The sample Bolt macros can be found within BoltKit_ThirdPerson_Samples > Macros.
+Includes samples for working with Shader Graph, materials, keyboard input, colliders / triggers, game object tags, & scene management. Additional documentation coming soon. The sample Bolt macros can be found within BoltKit_ThirdPerson_Samples > Macros. [Get the project package + setup / requirements here.](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/v1.0)
 
 <br>
 
@@ -44,7 +43,7 @@ Includes samples for working with Shader Graph, materials, keyboard input, colli
 
 ![EndlessRunnerPreview](https://user-images.githubusercontent.com/7104693/89501426-2da42180-d778-11ea-8b56-23b55796c51a.gif)
 
-A basic example of a 2D endless runner game that uses flow graphs & state graphs. Includes Bolt graphs that handle basic physics, scoring, UI updates, & animations. Bolt macro graphs are located within BoltSamples_2_EndlessRunner > Macros. Additional Bolt embed graphs are on the Game Manager object in the EndlessRunner scene
+A basic example of a 2D endless runner game that uses flow graphs & state graphs. Includes Bolt graphs that handle basic physics, scoring, UI updates, & animations. Bolt macro graphs are located within BoltSamples_2_EndlessRunner > Macros. Additional Bolt embed graphs are on the Game Manager object in the EndlessRunner scene. [Get the project package + setup / requirements here.](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/v1.0)
 
 <br>
 
@@ -52,7 +51,7 @@ A basic example of a 2D endless runner game that uses flow graphs & state graphs
 
 ![BoltUI](https://user-images.githubusercontent.com/7104693/94289922-52ae4880-ff0e-11ea-955d-494fc31f1014.gif)
 
-A more advanced demo featuring Bolt graphs for UI / dialouge, handling audio & animations, third person controls, scene management, working with Timeline, and more.
+A more advanced demo featuring Bolt graphs for UI / dialouge, handling audio & animations, third person controls, scene management, working with Timeline, and more. [Get the project package + setup / requirements here.](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/Demo-2.2)
 
 <br>
 
