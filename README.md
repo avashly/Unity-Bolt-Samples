@@ -32,7 +32,7 @@ The easiest way to get started:
 
 ## Samples
 
-### 🔮 Working with Shader Graph, Materials, & More
+### 🔮 [Working with Shader Graph, Materials, & More](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/v1.0)
 
 ![BoltSamples](https://user-images.githubusercontent.com/7104693/89501410-2715aa00-d778-11ea-98eb-ec78396781ec.gif)
 
@@ -40,7 +40,7 @@ Includes samples for working with Shader Graph, materials, keyboard input, colli
 
 <br>
 
-### 🏃🏽‍♀️ Endless Runner Game
+### 🏃🏽‍♀️ [Endless Runner Game](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/v1.0)
 
 ![EndlessRunnerPreview](https://user-images.githubusercontent.com/7104693/89501426-2da42180-d778-11ea-8b56-23b55796c51a.gif)
 
@@ -48,7 +48,7 @@ A basic example of a 2D endless runner game that uses flow graphs & state graphs
 
 <br>
 
-### 🎨 Bolt Market Demo
+### 🎨 [Bolt Market Demo](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/Demo-2.2)
 
 ![BoltUI](https://user-images.githubusercontent.com/7104693/94289922-52ae4880-ff0e-11ea-955d-494fc31f1014.gif)
 
