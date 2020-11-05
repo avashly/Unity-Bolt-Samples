@@ -47,11 +47,19 @@ A basic example of a 2D endless runner game that uses flow graphs & state graphs
 
 <br>
 
-### 🎨 [Bolt Market Demo](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/Demo-2.2)
+### 🎨 [Market Demo (Visual Scripting for Artists)](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/Demo-2.2)
 
 ![BoltUI](https://user-images.githubusercontent.com/7104693/94289922-52ae4880-ff0e-11ea-955d-494fc31f1014.gif)
 
 A more advanced demo featuring Bolt graphs for UI / dialouge, handling audio & animations, third person controls, scene management, working with Timeline, and more. [Get the project package + setup / requirements here.](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/Demo-2.2)
+
+<br>
+
+### 🚀 [Space Demo (Visual Scripting for Programmers)](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/Space-V1)
+
+![BoltForProgrammers_UniteNow2020_small](https://user-images.githubusercontent.com/7104693/98265670-373b5200-1f3e-11eb-9e40-f54c8409e50b.gif)
+
+A demo from [Unite Now 2020](https://resources.unity.com/unitenow/onlinesessions/visual-scripting-for-programmers-prototyping-team-tools) showing how to use C# scripts with Bolt. Feautres examples for using / customizing C# functions within visual scripting graphs, custom unit creation, accessing Bolt events & variables in C# scripts, & more. [Get the project package + setup / requirements here.](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/Space-V1)
 
 <br>
 
