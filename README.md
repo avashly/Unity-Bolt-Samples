@@ -44,7 +44,8 @@ Includes samples for working with Shader Graph, materials, keyboard input, colli
 ![EndlessRunnerPreview](https://user-images.githubusercontent.com/7104693/89501426-2da42180-d778-11ea-8b56-23b55796c51a.gif)
 
 A basic example of a 2D endless runner game that uses flow graphs & state graphs. Includes Bolt graphs that handle basic physics, scoring, UI updates, & animations. Bolt macro graphs are located within BoltSamples_2_EndlessRunner > Macros. Additional Bolt embed graphs are on the Game Manager object in the EndlessRunner scene. 
-[Get the project package + setup / requirements here.](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/v1.0)  |  Watch the video tutorial [here](https://youtu.be/DtbyC1OBpFg).
+<br>
+[Get the project package + setup / requirements here.](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/v1.0)&nbsp;&nbsp;|&nbsp;&nbsp;Watch the video tutorial [here](https://youtu.be/DtbyC1OBpFg).
 
 <br>
 
@@ -53,7 +54,8 @@ A basic example of a 2D endless runner game that uses flow graphs & state graphs
 ![BoltUI](https://user-images.githubusercontent.com/7104693/94289922-52ae4880-ff0e-11ea-955d-494fc31f1014.gif)
 
 A more advanced demo featuring Bolt graphs for UI / dialouge, handling audio & animations, third person controls, scene management, working with Timeline, and more. 
-[Get the project package + setup / requirements here.](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/Demo-2.2)  |  Watch the video tutorial [here](https://youtu.be/Q0aXoLPK7tM).
+<br>
+[Get the project package + setup / requirements here.](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/Demo-2.2)&nbsp;&nbsp;|&nbsp;&nbsp;Watch the video tutorial [here](https://youtu.be/Q0aXoLPK7tM).
 
 <br>
 
@@ -62,7 +64,8 @@ A more advanced demo featuring Bolt graphs for UI / dialouge, handling audio & a
 ![BoltForProgrammers_UniteNow2020_small](https://user-images.githubusercontent.com/7104693/98265670-373b5200-1f3e-11eb-9e40-f54c8409e50b.gif)
 
 A demo showing how to use C# scripts with Bolt. Feautres examples for using / customizing C# functions within visual scripting graphs, custom unit creation, accessing Bolt events & variables in C# scripts, & more. 
-[Get the project package + setup / requirements here.](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/Space-V1)  |  Watch the video tutorial [here](https://resources.unity.com/unitenow/onlinesessions/visual-scripting-for-programmers-prototyping-team-tools).
+<br>
+[Get the project package + setup / requirements here.](https://github.com/avashly/Unity-Bolt-Samples/releases/tag/Space-V1)&nbsp;&nbsp;|&nbsp;&nbsp;Watch the video tutorial [here](https://resources.unity.com/unitenow/onlinesessions/visual-scripting-for-programmers-prototyping-team-tools).
 
 <br>
 
